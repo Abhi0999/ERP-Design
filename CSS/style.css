@@ -83,7 +83,7 @@ body {
   }
   
   .navbar .form-control {
-    padding: .75rem 1rem !important;
+    padding: 16px !important;
     border-width: 0 !important;
     border-radius: 0 !important;
   }
@@ -92,6 +92,8 @@ body {
     color: #fff !important;
     background-color: rgba(255, 255, 255, .1) !important;
     border-color: rgba(255, 255, 255, .1) !important;
+    height: 18px !important;
+    margin-left: 5px !important;
   }
   
   .form-control-dark:focus {
@@ -102,3 +104,42 @@ body {
   margin-left: 30%;
   width: 30%;
  }
+
+ /* DropDown */
+
+ /* .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+ } */
+
+ .dropdown-container {
+   display: none;
+   padding-left: 8px;
+
+ }
+
+ .fa-caret-down {
+  float: right;
+  padding-right: 70px;
+  padding-top: 4px;
+}
+
+.dropdown-a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  color: #333;
+}
